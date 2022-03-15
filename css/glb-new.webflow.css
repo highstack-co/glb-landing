@@ -78,6 +78,7 @@
 
 .container-2 {
   max-width: 1920px;
+  min-height: 50vh;
 }
 
 .div-block {
@@ -371,13 +372,12 @@
 }
 
 .button-5 {
-  position: relative;
-  left: 777px;
-  top: -440px;
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
+  position: absolute;
+  line-height: 1.1;
+  left: 50%;
+  top: 50%;
   padding: 18px 32px;
+  text-align: center;;
   float: none;
   clear: none;
   -webkit-box-orient: horizontal;
@@ -404,6 +404,7 @@
   font-family: Montserrat, sans-serif;
   font-size: 25px;
   font-weight: 700;
+  transform: translateX(-50%);
 }
 
 .heading-6 {
@@ -445,8 +446,8 @@
   }
 
   .button-5 {
-    left: 214px;
-    top: 29px;
+    top: 35%;
+    left: 50%;
   }
 }
 
@@ -633,8 +634,6 @@
   }
 
   .button-5 {
-    left: 34px;
-    top: -26px;
     padding-bottom: 15px;
   }
 
